@@ -2,7 +2,7 @@
 #include "../inc/Defines.h"
 
 static char *   LOG_FILE      = "DEBUG.txt";
-n_Stacks inited_stacks = {};
+static n_Stacks inited_stacks = {};
 
 static char * stack_errors_interpretation[ERRORS_SIZE] = 
 {
